@@ -22,7 +22,7 @@
     <!-- med -->
     <rule ref="category/java/codestyle.xml/ForLoopShouldBeWhileLoop" />
     <rule ref="category/java/codestyle.xml/PrematureDeclaration" />
-    <rule ref="category/java/codestyle.xml/SuspiciousConstantFieldName" />
+	<rule ref="category/java/codestyle.xml/FieldNamingConventions" />
     <rule ref="category/java/codestyle.xml/UnnecessaryLocalBeforeReturn" />
     <rule ref="category/java/codestyle.xml/UnnecessaryReturn" />
     <rule ref="category/java/design.xml/AvoidDeeplyNestedIfStmts" />

@@ -28,3 +28,9 @@ After these first 3 steps, you should have the following in your marking directo
 After completion, you should have a directory called student-results, filled with subdirectories
 for each student bluej directory, with the feature and sonarlint reports
 in each.
+
+
+
+NOTES TO SELF [Aug 10, 2019]
+- since we don't want to style/bug check tests, you'll want to copy over src files, do code
+analysis on them (and Spotbugs will require a javac here), and THEN do the unit testing
