@@ -10,6 +10,9 @@ call spotbugs-3.1.12\bin\spotbugs.bat -textui -sortByClass -low -effort:min -lon
 
 
 :: https://pmd.github.io/latest/pmd_userdocs_installation.html
+:: if you want to leave out any specific files from pmd testing, you can put them in the rules xml file
+:: For example, if you look at the current pmd xml file I have, there's an exclusion for one file done
+:: like so: <exclude-pattern>.*/src/NullWebDriver.java</exclude-pattern>
 ::
 echo PMD >> testing-results.txt
 call pmd-bin-6.17.0\bin\pmd.bat -dir src -auxclasspath jars -R pmd-settings\1501_pmd_rules.xml -no-cache >> testing-results.txt
